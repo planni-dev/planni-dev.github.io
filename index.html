@@ -11,6 +11,12 @@
     />
     <link rel="stylesheet" href="dist/css/style.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -20,58 +26,7 @@
             <div class="brand header-brand">
               <h1 class="m-0">
                 <a href="#">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>Planni</title>
-                    <defs>
-                      <linearGradient
-                        x1="100%"
-                        y1="0%"
-                        x2="0%"
-                        y2="100%"
-                        id="logo-gradient-b"
-                      >
-                        <stop stop-color="#39D8C8" offset="0%" />
-                        <stop stop-color="#BCE4F4" offset="47.211%" />
-                        <stop stop-color="#838DEA" offset="100%" />
-                      </linearGradient>
-                      <path
-                        d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z"
-                        id="logo-gradient-a"
-                      />
-                      <linearGradient
-                        x1="23.065%"
-                        y1="25.446%"
-                        y2="100%"
-                        id="logo-gradient-c"
-                      >
-                        <stop
-                          stop-color="#1274ED"
-                          stop-opacity="0"
-                          offset="0%"
-                        />
-                        <stop stop-color="#1274ED" offset="100%" />
-                      </linearGradient>
-                    </defs>
-                    <g fill="none" fill-rule="evenodd">
-                      <mask id="logo-gradient-d" fill="#fff">
-                        <use xlink:href="#logo-gradient-a" />
-                      </mask>
-                      <use
-                        fill="url(#logo-gradient-b)"
-                        xlink:href="#logo-gradient-a"
-                      />
-                      <path
-                        fill="url(#logo-gradient-c)"
-                        mask="url(#logo-gradient-d)"
-                        d="M-16-16h32v32h-32z"
-                      />
-                    </g>
-                  </svg>
+                  <img src="dist/img/planni_logo_vertical.png" width="33%" />
                 </a>
               </h1>
             </div>
@@ -84,10 +39,17 @@
           <div class="container-sm">
             <div class="hero-inner">
               <h1 class="hero-title h2-mobile mt-0 is-revealing">
-                Build faster with planni
+                <span
+                  style="font-family: 'Poppins', sans-serif; font-weight: 200"
+                  >Build faster with </span
+                ><span
+                  style="font-family: 'Poppins', sans-serif; font-weight: 700"
+                  >planni</span
+                >
               </h1>
               <p class="hero-paragraph is-revealing">
-                Compliance workflow management software for property developers.
+                We're in the business building compliance workflow management
+                software for property developers.
               </p>
 
               <form
@@ -100,8 +62,15 @@
                   type="hidden"
                   name="accessKey"
                   value="9635a1fb-66ea-431d-9425-a73584c55b7e"
+                  size="64"
+                  style="
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    box-sizing: border-box;
+                    width: 200px;
+                  "
                 />
-                <input type="email" name="email" />
+                <input type="email" name="email" style="padding: 14px 14px; margin: 4px 2px;"/>
                 <input
                   type="hidden"
                   name="redirectTo"
@@ -109,7 +78,19 @@
                 />
 
                 <!-- Optional -->
-                <input type="submit" value="Stay In Touch" />
+                <input
+                  type="submit"
+                  value="Stay In Touch"
+                  style="
+                    background-color: #345e7d;
+                    border: none;
+                    color: white;
+                    padding: 16px 16px;
+                    text-decoration: none;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                  "
+                />
               </form>
 
               <div class="hero-browser">
@@ -127,19 +108,19 @@
                         id="bubble-3-a"
                       />
                     </defs>
-                    <g fill="none" fill-rule="evenodd">
-                      <mask id="bubble-3-b" fill="#fff">
+                    <g fill="#fabb49" fill-rule="evenodd">
+                      <mask id="bubble-3-b" fill="#345e7d">
                         <use xlink:href="#bubble-3-a" />
                       </mask>
-                      <use fill="#4E8FF8" xlink:href="#bubble-3-a" />
+                      <use fill="#345e7d" xlink:href="#bubble-3-a" />
                       <path
                         d="M64.5 129.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C-80.604-139.782-149-201.644-149-83.73c0 117.913 95.587 213.5 213.5 213.5z"
-                        fill="#1274ED"
+                        fill="#345e7d"
                         mask="url(#bubble-3-b)"
                       />
                       <path
                         d="M381.5 501.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C236.396 232.218 168 170.356 168 288.27c0 117.913 95.587 213.5 213.5 213.5z"
-                        fill="#75ABF3"
+                        fill="#345e7d"
                         mask="url(#bubble-3-b)"
                       />
                     </g>
@@ -163,16 +144,16 @@
                       <mask id="bubble-4-b" fill="#fff">
                         <use xlink:href="#bubble-4-a" />
                       </mask>
-                      <use fill="#7CE8DD" xlink:href="#bubble-4-a" />
+                      <use fill="#88a9c3" xlink:href="#bubble-4-a" />
                       <circle
-                        fill="#3BDDCC"
+                        fill="#88a9c3"
                         mask="url(#bubble-4-b)"
                         cx="30"
                         cy="108"
                         r="108"
                       />
                       <circle
-                        fill="#B1F1EA"
+                        fill="#88a9c3"
                         opacity=".7"
                         mask="url(#bubble-4-b)"
                         cx="265"
@@ -321,16 +302,16 @@
                       <mask id="bubble-1-b" fill="#fff">
                         <use xlink:href="#bubble-1-a" />
                       </mask>
-                      <use fill="#FF6D8B" xlink:href="#bubble-1-a" />
+                      <use fill="#fabb49" xlink:href="#bubble-1-a" />
                       <path
                         d="M2 43.992c17.673 0 28.05 17.673 28.05 0S19.674 0 2 0c-17.673 0-32 14.327-32 32 0 17.673 14.327 11.992 32 11.992z"
-                        fill="#FF4F73"
+                        fill="#fabb49"
                         mask="url(#bubble-1-b)"
                       />
                       <path
                         d="M74 30.992c17.673 0 28.05 17.673 28.05 0S91.674-13 74-13C56.327-13 42 1.327 42 19c0 17.673 14.327 11.992 32 11.992z"
                         fill-opacity=".8"
-                        fill="#FFA3B5"
+                        fill="#fabb49"
                         mask="url(#bubble-1-b)"
                       />
                     </g>
@@ -354,15 +335,15 @@
                       <mask id="bubble-2-b" fill="#fff">
                         <use xlink:href="#bubble-2-a" />
                       </mask>
-                      <use fill="#838DEA" xlink:href="#bubble-2-a" />
+                      <use fill="#fabb49" xlink:href="#bubble-2-a" />
                       <path
                         d="M202.697 211.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S98 57.56 98 98.593c0 41.034 63.663 113.068 104.697 113.068z"
-                        fill="#626CD5"
+                        fill="#fabb49"
                         mask="url(#bubble-2-b)"
                       />
                       <path
                         d="M43.697 56.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S-61-97.44-61-56.407C-61-15.373 2.663 56.661 43.697 56.661z"
-                        fill="#B1B6F1"
+                        fill="#fabb49"
                         opacity=".64"
                         mask="url(#bubble-2-b)"
                       />
@@ -413,7 +394,9 @@
                         </g>
                       </svg>
                     </div>
-                    <h3 class="feature-title">Autogenerated Digital Requirement Checklist</h3>
+                    <h3 class="feature-title">
+                      Autogenerated Digital Requirement Checklist
+                    </h3>
                     <p class="text-sm">
                       Automated precheck for site plan applications providing
                       the peace of mind needed to move forward with a project
@@ -443,7 +426,9 @@
                         </g>
                       </svg>
                     </div>
-                    <h3 class="feature-title">External Consultant Management</h3>
+                    <h3 class="feature-title">
+                      External Consultant Management
+                    </h3>
                     <p class="text-sm">
                       Where text is visible, people tend to focus on the textual
                       content rather than upon overall presentation.
@@ -481,7 +466,9 @@
                         </g>
                       </svg>
                     </div>
-                    <h3 class="feature-title">Automated Application Presubmission Review</h3>
+                    <h3 class="feature-title">
+                      Automated Application Presubmission Review
+                    </h3>
                     <p class="text-sm">
                       Easily track and coordinate the creation of necessary
                       documents for site plan applications
@@ -541,8 +528,10 @@
               <div class="newsletter-header text-center is-revealing">
                 <h2 class="section-title mt-0">Stay in the know</h2>
                 <p class="section-paragraph">
-                  Lorem ipsum is common placeholder text used to demonstrate the
-                  graphic elements of a document or visual presentation
+                  Thanks for checking out planni! Our team is currently
+                  developing our minimum viable product. If you're interested in
+                  what we're building, drop us your email so that we can send
+                  you updates.
                 </p>
               </div>
               <div style="text-align: center">
@@ -572,195 +561,8 @@
           </div>
         </section>
       </main>
-
-      <footer class="site-footer text-light">
-        <div class="container">
-          <div class="site-footer-inner">
-            <div class="brand footer-brand">
-              <a href="#">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>Ava</title>
-                  <defs>
-                    <path
-                      d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z"
-                      id="logo-gradient-footer-a"
-                    />
-                    <linearGradient
-                      x1="50%"
-                      y1="50%"
-                      y2="100%"
-                      id="logo-gradient-footer-b"
-                    >
-                      <stop stop-color="#FFF" stop-opacity="0" offset="0%" />
-                      <stop stop-color="#FFF" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <g fill="none" fill-rule="evenodd">
-                    <mask id="logo-gradient-footer-c" fill="#fff">
-                      <use xlink:href="#logo-gradient-footer-a" />
-                    </mask>
-                    <use
-                      fill-opacity=".32"
-                      fill="#FFF"
-                      xlink:href="#logo-gradient-footer-a"
-                    />
-                    <path
-                      fill="url(#logo-gradient-footer-b)"
-                      mask="url(#logo-gradient-footer-c)"
-                      d="M-16-16h32v32h-32z"
-                    />
-                  </g>
-                </svg>
-              </a>
-            </div>
-            <ul class="footer-links list-reset">
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="#">About us</a>
-              </li>
-              <li>
-                <a href="#">FAQ's</a>
-              </li>
-              <li>
-                <a href="#">Support</a>
-              </li>
-            </ul>
-            <ul class="footer-social-links list-reset">
-              <li>
-                <a href="#">
-                  <span class="screen-reader-text">Facebook</span>
-                  <svg
-                    width="16"
-                    height="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
-                      fill="#FFFFFF"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="screen-reader-text">Twitter</span>
-                  <svg
-                    width="16"
-                    height="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
-                      fill="#FFFFFF"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="screen-reader-text">Google</span>
-                  <svg
-                    width="16"
-                    height="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-                      fill="#FFFFFF"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <div class="footer-copyright">
-              &copy; 2018 Ava, all rights reserved
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script src="dist/js/main.min.js"></script>
   </body>
 </html>
-
-<!--
-
-        <form
-      method="post"
-      action="https://forms.un-static.com/forms/7efa1f1bddcfe7999edb6c3e972173a0ae10ecae"
-    >
-      <div class="form-group row">
-        <label for="name" class="col-4 col-form-label">Name</label>
-        <div class="col-8">
-          <div class="input-group">
-            <div class="input-group-addon">
-              <i class="fa fa-user"></i>
-            </div>
-            <input
-              id="name"
-              name="name"
-              placeholder="Please enter your name"
-              type="text"
-              required="required"
-              class="form-control"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="email" class="col-4 col-form-label">E-mail address</label>
-        <div class="col-8">
-          <div class="input-group">
-            <div class="input-group-addon">
-              <i class="fa fa-envelope"></i>
-            </div>
-            <input
-              id="email"
-              name="email"
-              placeholder="Your e-mail address"
-              type="text"
-              required="required"
-              class="form-control"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="message" class="col-4 col-form-label">Message</label>
-        <div class="col-8">
-          <textarea
-            id="message"
-            name="message"
-            cols="40"
-            rows="10"
-            required="required"
-            class="form-control"
-          ></textarea>
-        </div>
-      </div>
-      <div class="form-group row">
-        <div class="offset-4 col-8">
-          <button name="submit" type="submit" class="btn btn-primary">
-            Send
-          </button>
-        </div>
-      </div>
-    </form>
-    <div align="center">
-      <p>
-        <small
-          >(Powered by
-          <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small
-        >
-      </p>
-    </div>
-
--->
